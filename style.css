@@ -35,14 +35,43 @@
 .header {
     background-color: #c9c9c9;
     display: flex;
+    gap: 24px;
 }
 
 .header-1 {
-    margin: 24px 32px;
+    margin-top:32px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    width: 60%;
 }
 
 .banner {
-    width: 50%;
+    width: 100%;
+    height: auto;
+}
+
+.header-2 {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.header-2-1 {
+    font-family: 'Courier New', Courier, monospace; /* ไม่รู้ font อะไร */
+}
+
+.header-2-2 {
+    font-size: 20px;
+}
+
+.header-2-3 {
+    color: white;
+    font-size: 18px;
+    background-color: rgb(34, 34, 34);
+    padding: 8px;
+    width: 300px;
 }
 
 .section-1 {
